@@ -1,0 +1,80 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "张三",
+      "position": "开发工程师",
+      "department": "技术部",
+      "attendance": {
+        "late": 2,
+        "absent": 1
+      }
+    },
+    {
+      "id": 2,
+      "name": "李四",
+      "position": "测试工程师",
+      "department": "质量部",
+      "attendance": {
+        "late": 0,
+        "absent": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": "王五",
+      "position": "项目经理",
+      "department": "管理部",
+      "attendance": {
+        "late": 1,
+        "absent": 2
+      }
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": 1,
+      "name": "张三",
+      "type": "请假",
+      "date": "2024-12-01",
+      "status": "待审批"
+    },
+    {
+      "id": 2,
+      "name": "李四",
+      "type": "离职",
+      "date": "2024-12-02",
+      "status": "已批准"
+    },
+    {
+      "id": 3,
+      "name": "王五",
+      "type": "请假",
+      "date": "2024-12-03",
+      "status": "已拒绝"
+    }
+  ],
+  "trainingActivities": [
+    {
+      "id": 1,
+      "title": "技术技能培训",
+      "date": "2024-12-10",
+      "status": "已完成",
+      "participants": ["张三", "李四"]
+    },
+    {
+      "id": 2,
+      "title": "管理能力提升",
+      "date": "2024-12-15",
+      "status": "进行中",
+      "participants": ["王五"]
+    },
+    {
+      "id": 3,
+      "title": "质量管理培训",
+      "date": "2024-12-20",
+      "status": "待开始",
+      "participants": []
+    }
+  ]
+}
