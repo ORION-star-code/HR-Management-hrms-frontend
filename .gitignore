@@ -1,23 +1,16 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+/dist/
+
+# Debug log files
+npm-debug.log
+
+# OS files
 .DS_Store
-node_modules
-/dist
+Thumbs.db
 
-
-# local env files
-.env.local
-.env.*.local
-
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# IDE files
+.idea/
+.vscode/
